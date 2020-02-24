@@ -14,98 +14,10 @@ Project setup
 
 Create the following project structure
 
-$ mkdir code
-$ cd code
-$ git clone git@github.com:PacktPublishing/Hands-on-Microservices-with-Python.git frontend.git
-$ git clone git@github.com:PacktPublishing/Hands-on-Microservices-with-Python-User-Service.git user_service.git
-$ git clone git@github.com:PacktPublishing/Hands-on-Microservices-with-Python-Product-Service.git product_service.git
-$ git clone git@github.com:PacktPublishing/Hands-on-Microservices-with-Python-Order-Service.git order_service.git
+https://github.com/eddieir/Microservice_User_reg/blob/master/statucture.txt
 
 You should have the following project structure:
 
-├── app
-│   ├── app.py
-│   ├── frontend
-│   │   ├── api
-│   │   │   ├── __init__.py
-│   │   │   ├── OrderClient.py
-│   │   │   ├── ProductClient.py
-│   │   │   ├── __pycache__
-│   │   │   │   ├── __init__.cpython-38.pyc
-│   │   │   │   ├── OrderClient.cpython-38.pyc
-│   │   │   │   ├── ProductClient.cpython-38.pyc
-│   │   │   │   └── UserClient.cpython-38.pyc
-│   │   │   └── UserClient.py
-│   │   ├── forms.py
-│   │   ├── __init__.py
-│   │   ├── __pycache__
-│   │   │   ├── forms.cpython-38.pyc
-│   │   │   ├── __init__.cpython-38.pyc
-│   │   │   └── routes.cpython-38.pyc
-│   │   ├── routes.py
-│   │   └── templates
-│   │       ├── base_col_1.html
-│   │       ├── base_col_2.html
-│   │       ├── base.html
-│   │       ├── home
-│   │       │   └── index.html
-│   │       ├── login
-│   │       │   └── index.html
-│   │       ├── macros
-│   │       │   ├── _macros_basket.html
-│   │       │   └── _macros_form.html
-│   │       ├── _messages.html
-│   │       ├── nav_header.html
-│   │       ├── order
-│   │       │   └── thankyou.html
-│   │       ├── product
-│   │       │   └── index.html
-│   │       └── register
-│   │           └── index.html
-│   ├── home
-│   │   └── __pycache__
-│   │       ├── forms.cpython-36.pyc
-│   │       ├── __init__.cpython-36.pyc
-│   │       └── routes.cpython-36.pyc
-│   ├── __init__.py
-│   ├── requirements.txt
-│   ├── static
-│   │   ├── css
-│   │   │   └── main.css
-│   │   └── images
-│   │       ├── apple.png
-│   │       ├── banana.png
-│   │       ├── book-red.png
-│   │       ├── coffee.png
-│   │       ├── fidget-spinner-2399715_960_720.png
-│   │       ├── Fidget_spinner_in_blue.png
-│   │       ├── fidget-spinner-yellow.png
-│   │       ├── rubber_duck.png
-│   │       └── tomato.png
-│   └── user
-│       └── __pycache__
-│           ├── __init__.cpython-36.pyc
-│           └── routes.cpython-36.pyc
-├── bin
-├── docker-compose.deploy.yml
-├── docker-compose.yml
-├── Dockerfile
-├── docs
-│   ├── api
-│   │   └── postman
-│   │       ├── order-system.postman_collection.json
-│   │       └── Packt Order Management - Dev.postman_environment.json
-│   └── install
-│       ├── frontend.md
-│       ├── microservices.md
-│       └── requirements.md
-├── LICENSE
-├── __pycache__
-│   ├── HelloMicroService.cpython-36.pyc
-│   └── service.cpython-36.pyc
-├── README.md
-└── tests
-    └── test_pages.py
 
 Docker Machine (optional)
 
